@@ -1,0 +1,104 @@
+body{
+	margin: 30px 100px;
+	background-color: #32cd32;
+	font-family: Arial, Verdana, sans-serif;
+	font-weight: normal;
+	font-size: large;
+	color: #000000;
+	text-decoration: none;
+}
+
+h1 {
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: #FFFFFF;
+	font-family: "Arial Black", sans-serif;
+	font-weight: bolder;
+	font-size: 240%;
+	border: solid 5px #ff6347;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	color: #FF6347;
+}
+
+.booklist, ul li ul{
+	list-style-type: none;
+	line-height: 120%;
+}
+
+.book{
+	margin: 20px 90px;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 3px; 
+	border-color: #DC143C;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 32px;
+}
+
+.bookcover {
+	margin-right: 10px;
+	margin-top: 10px;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px; 
+	border-color: #DC143C;
+	padding: 5px;
+	float: right;
+	clear: none;
+}
+
+.author {
+	font-style: italic;
+	font-weight: bold;
+	color: #DC143C;
+}
+
+.title {
+	font-weight: bolder;
+}
+
+.publisher {
+	font-variant: small-caps;
+}
+
+.date {
+	line-height: 200%;
+	font-size: 80%
+}
+
+.isbn {
+	line-height: 50%;
+	font-size: 80%;
+}
+
+.clearme {
+	clear: both;
+	visibility: hidden; 
+}
+
+#footer {
+	border: none;
+	text-align: center;
+	color: #0000ff;
+}
+
+a:link{		/* unvisited link */
+	color: #0000FF;
+	text-decoration: none;
+} 
+a:visited{		/* visited link */
+	color: #4B0082;
+	text-decoration: underline;
+}	
+a:hover{	/* mouse over link */
+	color: #9400D3;
+	text-decoration: underline;
+	font-size:125%;
+}	
+a:active {	/* selected link */
+	color: #FF0000;
+	text-decoration: underline;
+}
