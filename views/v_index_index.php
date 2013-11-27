@@ -1,11 +1,7 @@
-<p>
-	Hello World! You have successfully spawned a new application.
-</p>
-
-<p>
-	This message is being triggered via the c_index.php controller, within the index() method.
-</p>
-
-<p>
-	<strong>Since everything is in working order, you should now delete <?php echo APP_PATH?>diagnostics.php</strong>
-</p>
+<section id='your_css'>
+	<form name='css_input' id='css_input' method='POST' action='/'>
+                <label for='content'>Your CSS here:</label><br>
+                <textarea name='content' id='content' rows="36" cols="56" required></textarea><br /><br />
+                <input type='submit' value='Submit' class='submit'>
+	</form>
+</section>
