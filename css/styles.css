@@ -1,3 +1,7 @@
+.init_hide {
+	display: none;
+}
+
 #colors li {
     list-style: none;
     cursor: pointer;

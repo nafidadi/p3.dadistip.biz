@@ -1,11 +1,12 @@
 <section id='controls'>
 	
-	<select name = 'colors'>
-		<option>color</option>
-		<option>background-color</option>
-		<option>border-color</option>
+	<select name='colors' id='color_attr'>
+		<option value='0' selected>Choose Color Attributes</option>
+		<option value='1'>color</option>
+		<option value='2'>background-color</option>
+		<option value='3'>border-color</option>
 	</select>
-	<ul id = 'colors'>
+	<ul id='colors' class='init_hide'>
 		<li id='white'></li>
 		<li id='silver'></li>
 		<li id='gray'></li>
