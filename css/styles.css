@@ -1,9 +1,8 @@
-.init_hide {
-	display: none;
-}
-
-#colors li {
+#colors li, #border_style li, #sections li, #groupings li,
+#embeddings li, #tables li, #forms li, #hyperlinks li {
     list-style: none;
+    /*border: solid 2px, #000000;
+    background-color: #555555;*/
     cursor: pointer;
     width: 80px;
     height: 24px;
@@ -75,3 +74,41 @@
 #purple {
     background-color: #800080;
 }
+
+#none {
+    border-style: none;
+} 
+
+#dotted {
+    border-style: dotted;
+} 
+
+#dashed {
+    border-style: dashed;
+}
+
+#solid {
+    border-style: solid;
+}
+
+#double {
+    border-style: double;
+}
+
+#groove {
+    border-style: groove;
+}
+
+#ridge {
+    border-style: ridge;
+}
+
+#inset {
+    border-style: inset;
+}
+
+#outset {
+    border-style: dotted;
+}
+
+
