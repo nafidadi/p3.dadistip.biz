@@ -9,77 +9,74 @@
 		<option value='6'>Hyperlinks</option>
 	<select>
 	<ul id='sections'>
-		<li>body</li>
-		<li>div</li>
-		<li>section</li>
-		<li>nav</li>
-		<li>article</li>
-		<li>aside</li>
-		<li>header</li>
-		<li>footer</li>
-		<li>h1</li>
-		<li>h2</li>
-		<li>h3</li>
-		<li>h4</li>
-		<li>h5</li>
-		<li>h6</li>
+		<li><a href='#'>body</a></li>
+		<li><a href='#'>div</a></li>
+		<li><a href='#'>section</a></li>
+		<li><a href='#'>nav</a></li>
+		<li><a href='#'>article</a></li>
+		<li><a href='#'>aside</a></li>
+		<li><a href='#'>header</a></li>
+		<li><a href='#'>footer</a></li>
+		<li><a href='#'>h1</a></li>
+		<li><a href='#'>h2</a></li>
+		<li><a href='#'>h3</a></li>
+		<li><a href='#'>h4</a></li>
+		<li><a href='#'>h5</a></li>
+		<li><a href='#'>h6</a></li>
 	</ul>
 
 	<ul id='groupings'>
-		<li>div</li>
-		<li>p</li>
-		<li>hr</li>
-		<li>ol</li>
-		<li>ul</li>
-		<li>li</li>
-		<li>figure</li>
-		<li>figcaption</li>
+		<li><a href='#'>div</a></li>
+		<li><a href='#'>p</a></li>
+		<li><a href='#'>hr</a></li>
+		<li><a href='#'>ol</a></li>
+		<li><a href='#'>ul</a></li>
+		<li><a href='#'>li</a></li>
+		<li><a href='#'>figure</a></li>
         </ul>
 
 	<ul id='embeddings'>
-		<li>img</li>
-		<li>iframe</li>
-		<li>embed</li>
-		<li>video</li>
-		<li>audio</li>
-		<li>canvas</li>
+		<li><a href='#'>img</a></li>
+		<li><a href='#'>iframe</a></li>
+		<li><a href='#'>embed</a></li>
+		<li><a href='#'>video</a></li>
+		<li><a href='#'>audio</a></li>
+		<li><a href='#'>canvas</a></li>
         </ul>
 
 	<ul id='tables'>
-		<li>table</li>
-		<li>caption</li>
-		<li>coldroup</li>
-		<li>col</li>
-		<li>tbody</li>
-		<li>thead</li>
-		<li>tfoot</li>
-		<li>tr</li>
-		<li>td</li>
-		<li>th</li>
+		<li><a href='#'>table</a></li>
+		<li><a href='#'>caption</a></li>
+		<li><a href='#'>coldroup</a></li>
+		<li><a href='#'>col</a></li>
+		<li><a href='#'>tbody</a></li>
+		<li><a href='#'>thead</a></li>
+		<li><a href='#'>tfoot</a></li>
+		<li><a href='#'>tr</a></li>
+		<li><a href='#'>td</a></li>
+		<li><a href='#'>th</a></li>
         </ul>
 	
 	<ul id='forms'>
-		<li>form</li>
-		<li>fieldset</li>
-		<li>label</li>
-		<li>input</li>
-		<li>button</li>
-		<li>select</li>
-		<li>datalist</li>
-		<li>optgroup</li>
-		<li>option</li>
-		<li>textarea</li>
+		<li><a href='#'>form</a></li>
+		<li><a href='#'>fieldset</a></li>
+		<li><a href='#'>label</a></li>
+		<li><a href='#'>input</a></li>
+		<li><a href='#'>button</a></li>
+		<li><a href='#'>select</a></li>
+		<li><a href='#'>datalist</a></li>
+		<li><a href='#'>optgroup</a></li>
+		<li><a href='#'>option</a></li>
+		<li><a href='#'>textarea</a></li>
         </ul>
 
 	<ul id='hyperlinks'>
-                <li>a</li>
-		<li>a:link</li>
-                <li>a:active</li>
-                <li>a:hover</li>
-                <li>a:visited</li>
+                <li><a href='#'>a</a></li>
+		<li><a href='#'>a:link</a></li>
+                <li><a href='#'>a:active</a></li>
+                <li><a href='#'>a:hover</a></li>
+                <li><a href='#'>a:visited</a></li>
         </ul>
-
-	<div id='braces'>{ }</div>
 
 	<select name='colors' id='color_attr'>
 		<option value='0' selected>Choose Color Attributes</option>
@@ -87,7 +84,6 @@
 		<option value='2'>background-color</option>
 		<option value='3'>border-color</option>
 	</select>
-
 	<ul id='colors'>
 		<li id='white'></li>
 		<li id='silver'></li>
@@ -106,7 +102,7 @@
 		<li id='fuchsia'></li>
 		<li id='purple'></li>
 	</ul>
-
+	
 	<select name='borders' id='border_attr'>
                 <option value='0' selected>Choose Border Attributes</option>
                 <option value='1'>border-style</option>
@@ -116,14 +112,86 @@
 		<option value='5'>border-left-style</option>
         </select>
 	<ul id='border_style'>
-		<li id='none'></li>
-		<li id='dotted'></li>
-		<li id='dashed'></li>
-		<li id='solid'></li>
-		<li id='double'></li>
-		<li id='groove'></li>
-		<li id='ridge'></li>
-		<li id='inset'></li>
-		<li id='outset'></li>
+		<li id='none'>none</li>
+		<li id='dotted'>dotted</li>
+		<li id='dashed'>dashed</li>
+		<li id='solid'>solid</li>
+		<li id='double'>double</li>
+		<li id='groove'>groove</li>
+		<li id='ridge'>ridge</li>
+		<li id='inset'>inset</li>
+		<li id='outset'>outset</li>
 	</ul>
+
+	<select name='fonts' id='font_attr'>
+                <option value='0' selected>Choose Font Attributes</option>
+                <option value='1'>font-family</option>
+                <option value='2'>font-size</option>
+                <option value='3'>font-weight</option>
+                <option value='4'>font-style</option>
+        </select>
+        <ul id='font_family'>
+                <li id='serif'><a href='#'>Times, Times New Roman, Georgia, serif</a></li>
+                <li id='sans-serif'><a href='#'>Verdana, Geneva, Arial, sans-serif</a></li>
+                <li id='monospace'><a href='#'>Courier, Courier New, monospace</a></li>
+                <li id='cursive'><a href='#'>Comic Sans, Apple Chancery, cursive</a></li>
+                <li id='fantasy'><a href='#'>Last Ninja, Impact, fantasy</a></li>
+        </ul>
+
+	<ul id='font_size'>
+                <li id='x-small'><a href='#'>x-small</a></li>
+                <li id='small'><a href='#'>small</a></li>
+                <li id='medium'><a href='#'>medium</a></li>
+                <li id='large'><a href='#'>large</a></li>
+                <li id='x-large'><a href='#'>x-large</a></li>
+        </ul>
+
+	<ul id='font_weight'>
+                <li id='normal'><a href='#'>normal</a></li>
+                <li id='bold'><a href='#'>bold</a></li>
+                <li id='bolder'><a href='#'>bolder</a></li>
+                <li id='lighter'><a href='#'>lighter</a></li>
+        </ul>
+
+	<ul id='font_style'>
+                <li id='italic'><a href='#'>italic</a></li>
+                <li id='oblique'><a href='#'>oblique</a></li>
+        </ul>
+
+	<select name='margins_pads' id='margins_pads_attr'>
+		<option value='0' selected>Margins and Paddings</option>
+                <option value='1'>margin</option>
+                <option value='2'>margin-top</option>
+                <option value='3'>margin-bottom</option>
+                <option value='4'>margin-left</option>
+		<option value='5'>margin-right</option>
+		<option value='6'>padding</option>
+		<option value='7'>padding-top</option>
+		<option value='8'>padding-bottom</option>
+		<option value='9'>padding-right</option>
+		<option value='10'>padding-left</option>
+	</select>
+
+	<select name='lists' id='list_attr'>
+                <option value='0' selected>Choose List Attributes</option>
+                <option value='1'>list-style-type</option>
+                <option value='2'>list-style-position</option>
+        </select>
+
+	<ul id='list_type'>
+                <li id='non'><a href='#'>none</a></li>
+                <li id='disc'><a href='#'>disc</a></li>
+                <li id='circle'><a href='#'>circle</a></li>
+                <li id='square'><a href='#'>square</a></li>
+		<li id='decimal'><a href='#'>decimal</a></li>
+                <li id='lower-roman'><a href='#'>lower-roman</a></li>
+                <li id='upper-roman'><a href='#'>upper-roman</a></li>
+                <li id='lower-latin'><a href='#'>lower-latin</a></li>
+		<li id='upper-latin'><a href='#'>upper-latin</a></li>
+        </ul>
+	
+	<ul id='list_position'>
+                <li id='inside'><a href='#'>inside</a></li>
+                <li id='outside'><a href='#'>outside</a></li>
+        </ul>
 </section>

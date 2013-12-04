@@ -1,16 +1,55 @@
-#colors li, #border_style li, #sections li, #groupings li,
-#embeddings li, #tables li, #forms li, #hyperlinks li {
+#colors li, #border_style li {
     list-style: none;
-    /*border: solid 2px, #000000;
-    background-color: #555555;*/
     cursor: pointer;
     width: 80px;
     height: 24px;
     float: left;
     margin-right: 2px;
     margin-bottom: 2px;
+} 
+
+#sections li, #groupings li, #embeddings li, #tables li, 
+#forms li, #hyperlinks li, #font_size li, #font_style li, 
+#font_weight li, #list_type li, #list_position li {
+	list-style: none;
+	float: left;
+	width: 80px;
+	height: 24px;
+	cursor: pointer;
+        background-color: #bbbbbb;
+        padding: 3px;
+        border: 1px solid #000080;
+        text-decoration: none;
+        text-align: center;
+        font-size: medium;
+        font-weight: bold;
 }
 
+#font_family li {
+	list-style: none;
+	background-color: #bbbbbb;
+	cursor: pointer;
+        padding: 3px;
+        border: 1px solid #000080;
+        text-decoration: none;
+        text-align: center;
+        font-size: medium;
+        font-weight: bold;
+}
+
+select {
+    width: 80%;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#border_style {
+	text-align: center;
+        font-size: medium;
+        font-weight: bold;
+}
+
+/* Colors */
 #white {
     background-color: #ffffff;
 }
@@ -75,6 +114,8 @@
     background-color: #800080;
 }
 
+
+/* Borders */
 #none {
     border-style: none;
 } 
@@ -110,5 +151,3 @@
 #outset {
     border-style: dotted;
 }
-
-

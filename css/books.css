@@ -1,4 +1,4 @@
-body{
+#body{
 	margin: 30px 100px;
 	background-color: #32cd32;
 	font-family: Arial, Verdana, sans-serif;
@@ -96,7 +96,7 @@ a:visited{		/* visited link */
 a:hover{	/* mouse over link */
 	color: #9400D3;
 	text-decoration: underline;
-	font-size:125%;
+	font-size:110%;
 }	
 a:active {	/* selected link */
 	color: #FF0000;

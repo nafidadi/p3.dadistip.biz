@@ -19,6 +19,7 @@
 		<ul>
 			<li><a href='/'>Home</a></li>
             		<li><a href='/books'>Books</a></li>
+			<li><a href='/styled'>Styled</a></li>
 		</ul>
 	</nav>
 	
