@@ -10,7 +10,7 @@
 
 #sections li, #groupings li, #embeddings li, #tables li, 
 #forms li, #hyperlinks li, #font_size li, #font_style li, 
-#font_weight li, #list_type li, #list_position li {
+#font_weight li, #list_type li, #list_position li, #float_clear li {
 	list-style: none;
 	float: left;
 	width: 80px;

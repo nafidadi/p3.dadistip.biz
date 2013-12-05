@@ -179,7 +179,7 @@
         </select>
 
 	<ul id='list_type'>
-                <li id='non'><a href='#'>none</a></li>
+                <li id='none1'><a href='#'>none</a></li>
                 <li id='disc'><a href='#'>disc</a></li>
                 <li id='circle'><a href='#'>circle</a></li>
                 <li id='square'><a href='#'>square</a></li>
@@ -194,4 +194,32 @@
                 <li id='inside'><a href='#'>inside</a></li>
                 <li id='outside'><a href='#'>outside</a></li>
         </ul>
+
+	<select name='float' id='float_attr'>
+		<option value='0' selected>Float and Clear</option>
+                <option value='1'>float</option>
+                <option value='2'>clear</option>
+	</select>
+
+	<ul id='float_clear'>
+                <li id='left'><a href='#'>left</a></li>
+                <li id='right'><a href='#'>right</a></li>
+                <li id='both'><a href='#'>both</a></li>
+                <li id='none2'><a href='#'>none</a></li>
+        </ul>
+
+	<article>
+	<ul>
+		<li>The idea of this project is to generate a css for the page shown in the <a href='/books'>Books</a> 
+		    navigation menu.</li>
+		<li>Enter your css in the textarea and hit submit. Your css will automatically be applied to 
+		    the <a href='/books'>Books</a> page.</li>
+		<li>The <a href='/books'>Books</a> page was taken from one of my assignments in cscie-12 and I styled it as shown in 
+		    the <a href='/styled'>Styled</a> navigation menu at the time.</li>
+		<li>You might have to add opening &#39;&#123;&#39; and closing &#39;&#125;&#39; braces using the keyboard. 
+		    Also you have to type in any classes and ids.</li>
+		<li>If you change the value of an attribute, you have to manually delete the older value in the textarea. 
+		    I will try to fix that but ...</li>
+	</ul>
+	<article>
 </section>

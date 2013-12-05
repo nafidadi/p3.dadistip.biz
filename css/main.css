@@ -74,18 +74,18 @@ input.submit{
 }
 
 section#controls {
-	border: solid 3px #000000;
+	border: dotted 2px #000000;
 	margin-left: 8%;
 	padding: 5px 5px;
-	width: 40%;
+	width: 36%;
 	float: left;
 }
 
 section#your_css {
-	border: solid 3px #000000;
+	border: dotted 2px #000000;
 	margin-right: 8%;
 	padding: 5px 5px;
-	width: 40%;
+	width: 44%;
 	float: right;
 	clear: none;
 }

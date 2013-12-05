@@ -23,7 +23,7 @@ class index_controller extends base_controller {
 			$this->template->contentRight = View::instance('v_index_index');
 			
 			# $this->template->contentTop = View::instance('v_index_index');
-			# $this->template->contentBottom = View::instance('v_books_index');
+			# $this->template->contentBottom = View::instance('v_books_small');
 			
 		# Now set the <title> tag
 			$this->template->title = "Simple CSS Generator";
